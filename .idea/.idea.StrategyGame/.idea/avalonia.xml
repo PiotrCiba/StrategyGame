@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="StrategyGame/App.axaml" value="StrategyGame/StrategyGame.csproj" />
         <entry key="StrategyGame/Views/MainWindow.axaml" value="StrategyGame/StrategyGame.csproj" />
       </map>
     </option>
