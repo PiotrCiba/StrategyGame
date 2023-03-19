@@ -19,10 +19,10 @@
         <Image Source="MainMenuBackground.jpg" Stretch="Fill"/>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Strategy Game" FontSize="32" FontWeight="Bold" Margin="0 0 0 50"/>
-            <Button Content="New Game" FontSize="24" Margin="0 0 0 10" Click="NewGameButton_Click"/>
-            <Button Content="Load Game" FontSize="24" Margin="0 0 0 10" Click="LoadGameButton_Click"/>
-            <Button Content="Options" FontSize="24" Margin="0 0 0 10" Click="OptionsButton_Click"/>
-            <Button Content="Exit" FontSize="24" Click="ExitButton_Click"/>
+            <Button Width = "175" Command="{Binding NewGame}">New Game</Button>
+            <Button Width = "175" Command="{Binding LoadGame}">Load Game</Button>
+            <Button Width = "175" Command="{Binding SettingsMenu}">Settings</Button>
+            <Button Width = "175" Command="{Binding ExitGame}">Exit Game</Button>
         </StackPanel>
     </Grid>
         

@@ -9,8 +9,5 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
-    public void NewGameButton_Click(object? sender, RoutedEventArgs routedEventArgs) { }
-    public void LoadGameButton_Click(object? sender, RoutedEventArgs routedEventArgs) { }
-    public void OptionsButton_Click(object? sender, RoutedEventArgs routedEventArgs){}
-    public void ExitButton_Click(object? sender, RoutedEventArgs routedEventArgs){}
+    
 }
